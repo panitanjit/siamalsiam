@@ -103,17 +103,17 @@ footer{
 }
 
 .logo{
-    left: 56%;
+   left: 55%;
     position: absolute;
-    top: 5%;
+    top: 11%;
     width: 14%;
     z-index: 2;
 }
 
 .smoke{
-	left: 13%;
+	 left: 20%;
     position: absolute;
-    top: 26%;    
+    top: 59%;
     z-index: 2;
 }
 .smoke img{width: 43%;}
@@ -146,11 +146,11 @@ footer{
 .mainwidth{width: 45px;}
 
 .nav-head {
-	left: 70%;
+	  left: 70%;
     position: absolute;
+    top: 2%;
     width: 26%;
     z-index: 2;
-    top:1%;
 }
 
 .nav-head ul{
@@ -183,9 +183,9 @@ footer{
 	color: 
 }
 .partyhouse{
-	left: 21%;
+	    left: 20%;
     position: absolute;
-    top: 12%;
+    top: 23%;
     width: 100%;
     z-index: 3;
 }
@@ -201,9 +201,9 @@ footer{
 }
 
 .diamond {
-    left: 62%;
+      left: 62%;
     position: absolute;
-    top: 15%;
+    top: 33%;
     z-index: 2;
 }
 
@@ -221,7 +221,7 @@ footer{
 .design{
 	left: 18%;
     position: absolute;
-    top: 71%;
+    top: 164%;
     width: 43%;
 }
 
@@ -230,9 +230,9 @@ footer{
 }
 
 .nav-ph1{
-	left: 46%;
+	 left: 46%;
     position: absolute;
-    top: 69%;
+    top: 152%;
     width: 43%;
 }
 
@@ -285,7 +285,7 @@ footer{
 .special{
  	left: 62%;
     position: absolute;
-    top: 43%;
+    top: 90%;
     width: 50%;
     z-index: 2;
 }
@@ -316,7 +316,7 @@ footer{
 .glass{
 	left: 64%;
     position: absolute;
-    top: 100%;
+    top: 219%;
     z-index: 1;
 }
 .glass img{width: 134%;}
@@ -324,7 +324,7 @@ footer{
 .menu{
 	left: 54%;
     position: absolute;
-    top: 136%;
+    top: 305%;
     z-index: 2;
 }
 
@@ -363,9 +363,9 @@ footer{
 
 
 .gallery{	
-	position:absolute;
-	top:164%;
-	z-index: 1;
+	position: absolute;
+    top: 365%;
+    z-index: 1;
 }
 .gallery img{
 	width: 19.5%;
@@ -382,8 +382,8 @@ footer{
 
 .footer{
 	position: absolute;
-	z-index: 2;
-	top:193%;
+    top: 430%;
+    z-index: 2;
 }
 
 .footer img{
@@ -393,7 +393,7 @@ footer{
 .footer .copyright{
 	font-size: 1vw;
     font-weight: bold;
-    left: 35%;
+    left: 39%;
     position: absolute;
     text-transform: uppercase;
     top: 73%;
