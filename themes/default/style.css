@@ -326,6 +326,7 @@ footer{
     position: absolute;
     top: 305%;
     z-index: 2;
+    font-size: 2vw;
 }
 
 .menu img {
@@ -337,7 +338,7 @@ footer{
 }
 
 .menu ul>li>a {
-	font-size: 1vw;
+	font-size: 2vw;
 }
 
 .design a{
