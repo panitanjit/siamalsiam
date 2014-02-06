@@ -22,9 +22,7 @@
 <script src="/scripts/vminpoly.js"></script>
 </head>
 <body> 
-    <section>
-    	<img class="background" src="themes/default/images/background.jpg">
-	
+    <div id="wrapper">
     	<div class="nav-main">
 			<ul>
 				<li><a href="/accommodation" class="fittext">Accommodation</a></li>
@@ -36,6 +34,7 @@
 				
 			</ul>
 		</div>
+		
 		<div class="nav-head">
 			<ul>
 				<li><a href="/download" class="fittext">Downloads | </a></li>
@@ -43,13 +42,19 @@
 			</ul>
 			<div class="clear"></div>
 		</div>
-		<div class="bg-img" data-0="margin-top:0%" data-500="margin-top:-30%">
+		
+    	<div id="background">
+    		<img class="background" src="themes/default/images/background.jpg">
+			<div id="container">
+    	
+		
+		<div class="bg-img" data-0="top:0%" data-1000="top:-45%">
         <!-- <div class="bg-img"> -->
         	<img src="themes/default/images/header.png" >
         </div>
         
-        <div class="smoke" data-0="left:5%;top:59%" data-500="left:-2%;top:5%">
-        <!-- <div class="smoke" > -->
+        <div class="smoke" data-0="left:6%;top:13%" data-300="left:-10%;top:0%">
+       <!--  <div class="smoke" > -->
         	<img  src="themes/default/images/smoke.png">
        	</div>
        	<div class="logo-canvas">
@@ -57,7 +62,7 @@
         	<a href="" title="Siam@Siam Design Hotel & Spa | Official Website"><img class="logo" src="themes/default/images/logo.png">
         	</a>
         </div>
-        <div class="partyhouse" data-0="top:23%;" data-500="top:-10%;">
+        <div class="partyhouse" data-0="top:7%;" data-500="top:-10%;">
 		<!-- <div class="partyhouse"> -->
 			<img class="text" src="themes/default/images/partyhouseone.png">    
 			<ul>
@@ -69,19 +74,23 @@
 			</ul>
 		</div>
 		
-		<div class="diamond" data-0="top:33%;left:58%;" data-500="top:-10%;left:63%;">
+		<div class="diamond" data-0="top:10%;left:55%;" data-500="top:-10%;left:65%;width:45%;">
 		<!-- <div class="diamond"> -->
 			<a href="" title="siam chicken rice">
 	 			<img  src="themes/default/images/diamond.png">
 	   		</a>
    		</div>
     
-    	<div class="special" data-0="top:90%;" data-500="top:20%;">	
+    	<div class="special" data-0="top:24%;" data-500="top:14%;">	
     	<!-- <div class="special"> -->
 			<img class="text" src="themes/default/images/ph-special.png" >    
 			<ul>
-				<li><a href="" title="siam chicken rice" class="fittext">siam chicken rice</a></li>
-				<li><a href="" title="masaman lamp shank" class="fittext">masaman lamp shank</a></li>
+				<li>
+				<img class="dat" src="themes/default/images/dat1.png">
+				<a href="" title="siam chicken rice" class="fittext">siam chicken rice</a></li>
+				<li>
+				<img class="dat" src="themes/default/images/dat1.png">
+				<a href="" title="masaman lamp shank" class="fittext">masaman lamp shank</a></li>
 			</ul>
 		</div>
 		
@@ -127,11 +136,11 @@
 	   </div>
 	   <div class="clear"></div>	   
  	   <div class="glass" data-600="left:80%;" data-950="left:64%;">
-	   <!--  <div class="glass"> -->
+	    <!-- <div class="glass"> -->
 	   		<img class="text" src="themes/default/images/glass.png"> 
 	   </div>
-			<div class="menu" data-650="top:210%;" data-1450="top:306%;">
-			<!-- <div class="menu">	 -->			
+			<div class="menu" data-650="top:60%;" data-1150="top:82%;">
+			<!-- <div class="menu"> -->				
 				<img class="text" src="themes/default/images/menu-houseone.png"> 
 				<ul>
 					<li>
@@ -145,7 +154,16 @@
 					</li>
 				</ul>
 			</div>
-	<div class="gallery">	
+	
+    
+    
+    
+<!-- end container -->    
+  </div>
+			
+		
+		</div>
+		<div class="gallery">	
     	 <a href="" title="Siam@Siam Design"><img src="themes/default/images/img_1.jpg"></a>
 	     <a href="" title="Siam@Siam Design"><img src="themes/default/images/img_2.jpg"></a>
 	     <a href="" title="Siam@Siam Design"><img src="themes/default/images/img_3.jpg"></a>
@@ -157,13 +175,14 @@
 	     <a href="" title="Siam@Siam Design"><img src="themes/default/images/img_9.jpg"></a>
 	     <a href="" title="Siam@Siam Design"><img src="themes/default/images/img_10.jpg"></a>
      	<div class="clear"></div>
-    </div>	
-    <div class="footer">
-    	<img src="themes/default/images/footerbg.jpg" alt="footer">
-   		<div class="copyright">All Right Reserve &copy CopyRight 2013</div>
-    </div>
-    
-    </section>
+	    </div>	
+	    <div class="footer">
+	    	<img src="themes/default/images/footerbg.jpg" alt="footer">
+	   		<div class="copyright">All Right Reserve &copy CopyRight 2013</div>
+	    </div>
+	    
+		<!-- end wrapper -->  
+</div>
     
 
 <script>

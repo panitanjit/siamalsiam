@@ -54,11 +54,11 @@ table {
 }
 
 .background{
-	position: absolute;
+	position: relative;
 	width: 100%;
 	z-index: 0;
 	opacity: 1;
-	top:4%;
+	/* top:4%; */
 }
 
 header{
@@ -68,7 +68,7 @@ header{
 }
 
 section{
-	border:2px solid #ccc;
+	border:0px solid #ccc;
 	z-index: 5;
 }
 
@@ -82,10 +82,26 @@ footer{
 	border:2px solid orange;
 	z-index: 5;
 }
+
+#wrapper{
+	width: 100%;
+}
+
+#container{
+	margin:0 auto;
+	width: 960px;
+}
+
+#background{
+	position: relative;
+	z-index: 0;
+	top:-48px;
+}
+
 .bg-img{
-    left: 0;
+    left: 0%;
     position: absolute;
-    top: 0;    
+    top: 0%;    
     z-index: 1;  
 }
 .bg-img img{
@@ -100,17 +116,17 @@ footer{
 }
 
 .logo{
-   left: 55%;
+    left: 56%;
     position: absolute;
-    top: 11%;
-    width: 14%;
+    top: 3%;
+    width: 13%;
     z-index: 2;
 }
 
 .smoke{
-	left: 5%;
+	left: 6%;
     position: absolute;
-    top: 59%;
+    top: 13%;
     z-index: 2;
 }
 .smoke img{width: 70%;}
@@ -181,9 +197,9 @@ footer{
 	color: 
 }
 .partyhouse{
-	    left: 20%;
+	left: 20%;
     position: absolute;
-    top: 23%;
+    top: 7%;
     width: 100%;
     z-index: 3;
 }
@@ -199,14 +215,14 @@ footer{
 }
 
 .diamond {
-    left: 58%;
+    left: 55%;
     position: absolute;
-    top: 33%;
+    top: 10%;
     z-index: 2;
 }
 
 .diamond img{
-	width: 60%;
+	width: 45%;
 	-webkit-filter: grayscale(0%);
 }
 
@@ -219,7 +235,7 @@ footer{
 .design{
 	left: 18%;
     position: absolute;
-    top: 164%;
+    top: 44%;
     width: 43%;
 }
 
@@ -228,14 +244,14 @@ footer{
 }
 
 .nav-ph1{
-	 left: 46%;
+	left: 46%;
     position: absolute;
-    top: 152%;
+    top: 40%;
     width: 43%;
 }
 
 .nav-ph1 img{
-	width: 14px;
+	width: 20px;
 }
 
 .nav-ph1 ul{
@@ -283,13 +299,18 @@ footer{
 .special{
  	left: 62%;
     position: absolute;
-    top: 90%;
+    top: 24%;
     width: 50%;
     z-index: 2;
 }
 
 .special img{
 	width: 37%;
+}
+
+.special .dat{
+	width: 12px;
+	height: 12px;
 }
 
 .special ul{
@@ -314,21 +335,21 @@ footer{
 .glass{
 	left: 64%;
     position: absolute;
-    top: 219%;
+    top: 60%;
     z-index: 1;
 }
 .glass img{width: 134%;}
 
 .menu{
-	left: 54%;
+	font-size: 2vw;
+    left: 54%;
     position: absolute;
-    top: 305%;
+    top: 82%;
     z-index: 2;
-    font-size: 2vw;
 }
 
 .menu img {
-	width: 65%;
+	width: 50%;
 }
 
 .menu ul {
@@ -362,9 +383,11 @@ footer{
 
 
 .gallery{	
-	position: absolute;
-    top: 365%;
+	position: relative;
+    top: -48px;
     z-index: 1;
+    display: inline-block;
+    overflow: hidden;
 }
 .gallery img{
 	width: 19.7%;
@@ -380,9 +403,11 @@ footer{
 } 
 
 .footer{
-	position: absolute;
-    top: 430%;
+	position: relative;
+    top: -48px;
     z-index: 2;
+    display: inline-block;
+    overflow: hidden;
 }
 
 .footer img{
@@ -392,10 +417,10 @@ footer{
 .footer .copyright{
 	font-size: 1vw;
     font-weight: bold;
-    left: 39%;
-    position: absolute;
+    position: relative;
     text-transform: uppercase;
-    top: 73%;
+    top: -20px;
+    text-align:center;
     z-index: 6;
     color:#AAA49A;
 }
