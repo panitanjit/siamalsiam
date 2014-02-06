@@ -108,12 +108,12 @@ footer{
 }
 
 .smoke{
-	 left: 20%;
+	left: 5%;
     position: absolute;
     top: 59%;
     z-index: 2;
 }
-.smoke img{width: 43%;}
+.smoke img{width: 70%;}
 .nav-main{
 	position: relative;
 	z-index: 4;
@@ -138,7 +138,7 @@ footer{
     background:url(images/hight_light_1.png);
     background-repeat: no-repeat;
     background-position:top;
-    background-size:35px;
+    background-size:55px;
 }
 
 .mainwidth{width: 45px;}
